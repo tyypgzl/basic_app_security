@@ -1,0 +1,24 @@
+name: basic_app_security
+description: "A basic Jailbreak and Root Detection package for Flutter"
+version: 1.0.0
+
+repository: https://github.com/tyypgzl/basic_app_security
+issue_tracker: https://github.com/tyypgzl/basic_app_security/issues
+homepage: https://tguzel.dev/
+topics: ["jailbreak", "root", "security", "flutter"]
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  basic_widgets: ^1.0.0+1
+
+  flutter_jailbreak_detection: ^1.10.0
+
+dev_dependencies:
+  basic_lint: ^1.0.1
+  
