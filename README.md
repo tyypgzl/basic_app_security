@@ -15,7 +15,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  basic_app_security: ^0.0.1
+  basic_app_security: ^1.0.0
 ```
 
 Then run:
@@ -23,6 +23,25 @@ Then run:
 ```bash
 flutter pub get
 ```
+
+## Platform Based Configurations
+
+### iOS
+Add the following lines to the Info.plist file in /ios/Runner/ folder:
+
+```xml
+<key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>undecimus</string>
+        <string>sileo</string>
+        <string>zbra</string>
+        <string>filza</string>
+        <string>activator</string>
+    </array>
+```
+
+### Android
+No configurations needed.
 
 ## Usage
 
@@ -96,6 +115,6 @@ class MyApp extends StatelessWidget {
 
 ## Additional information
 
-This package uses [flutter_jailbreak_detection](https://pub.dev/packages/flutter_jailbreak_detection) under the hood for detecting compromised devices.
+This package uses [root_jailbreak_sniffer](https://pub.dev/packages/root_jailbreak_sniffer) under the hood for detecting compromised devices.
 
-For more information or to report issues, please visit the [GitHub repository](https://github.com/yourusername/basic_app_security).
+For more information or to report issues, please visit the [GitHub repository](https://github.com/tyypgzl/basic_app_security).

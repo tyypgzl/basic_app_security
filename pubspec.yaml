@@ -17,7 +17,7 @@ dependencies:
   
   basic_widgets: ^1.0.0+1
 
-  flutter_jailbreak_detection: ^1.10.0
+  root_jailbreak_sniffer: ^1.1.0
 
 dev_dependencies:
   basic_lint: ^1.0.1
