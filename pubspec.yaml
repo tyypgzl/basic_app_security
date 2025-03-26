@@ -1,6 +1,6 @@
 name: basic_app_security
 description: "A basic Jailbreak and Root Detection package for Flutter"
-version: 1.0.2
+version: 1.0.3
 
 repository: https://github.com/tyypgzl/basic_app_security
 issue_tracker: https://github.com/tyypgzl/basic_app_security/issues
@@ -9,7 +9,7 @@ topics: ["jailbreak", "root", "security", "flutter"]
 
 environment:
   sdk: ^3.7.2
-  flutter: ^3.29.2
+  flutter: ">=3.29.2"
 
 dependencies:
   flutter:

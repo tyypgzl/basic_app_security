@@ -10,3 +10,7 @@
 # 1.0.2
 
 - Upgrade SDK version to 3.29.2
+
+# 1.0.3
+
+- Upgrade SDK version to 3.29.2
