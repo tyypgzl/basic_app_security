@@ -27,10 +27,7 @@ final class _BasicAppSecurityState extends State<BasicAppSecurity> {
   Future<void> _checkJailbroken() async {
     final isJailbroken = await Rjsniffer.amICompromised() ?? false;
     if (isJailbroken && context.mounted && mounted) {
-      showSecuritySheet(
-        context,
-        delegate: widget.delegate,
-      );
+      showSecuritySheet(context, delegate: widget.delegate);
     }
   }
 
