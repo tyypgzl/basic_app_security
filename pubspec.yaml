@@ -8,14 +8,14 @@ homepage: https://tguzel.dev/
 topics: ["jailbreak", "root", "security", "flutter"]
 
 environment:
-  sdk: ^3.5.4
-  flutter: ">=1.17.0"
+  sdk: ^3.7.2
+  flutter: ^3.29.2
 
 dependencies:
   flutter:
     sdk: flutter
   
-  basic_widgets: ^1.0.0+1
+  basic_widgets: ^1.0.6
 
   root_jailbreak_sniffer: ^1.1.0
 
