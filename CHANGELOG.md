@@ -6,3 +6,7 @@
 
 - Change detection package to root_jailbreak_sniffer
 - Update readme
+
+# 1.0.2
+
+- Upgrade SDK version to 3.29.2
