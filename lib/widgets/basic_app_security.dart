@@ -1,4 +1,5 @@
 import 'package:basic_app_security/basic_app_security.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:root_jailbreak_sniffer/rjsniffer.dart';
 
@@ -26,7 +27,7 @@ final class _BasicAppSecurityState extends State<BasicAppSecurity> {
 
   Future<void> _checkJailbroken() async {
     final isJailbroken = await Rjsniffer.amICompromised() ?? false;
-    if (isJailbroken && context.mounted && mounted) {
+    if (isJailbroken && context.mounted && mounted && kReleaseMode) {
       showSecuritySheet(context, delegate: widget.delegate);
     }
   }
