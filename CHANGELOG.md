@@ -18,3 +18,7 @@
 # 1.0.4
 
 - Update exit function
+
+# 1.0.5
+
+- Add kReleaseMode security check for Android Emulator
